@@ -1,0 +1,22 @@
+button {
+    background-color: rgb(10, 1, 1);
+    padding: 3px;
+    margin: 10px;
+    color:aliceblue;
+    font-weight:bold;
+}
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+}
+.box {
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 100px;
+    margin: 20px;
+    justify-content: center;
+}
+.clicked {
+    background-color: brown;
+}
