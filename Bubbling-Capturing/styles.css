@@ -1,0 +1,33 @@
+
+.parent {
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid rgb(174, 47, 47);
+    padding: 100px;
+    margin: 20px;
+    background-color: rgb(167, 57, 57);
+   /* justify-content: center; */
+}
+
+.child {
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid rgb(131, 118, 118);
+    padding: 100px;
+    margin: 20px;
+    background-color: blueviolet;
+   /* justify-content: center; */
+}
+
+.grand-child {
+    width:50px;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid rgb(195, 158, 158);
+    padding: 100px;
+    margin: 20px;
+    background-color: rgb(165, 146, 146);
+    /* justify-content: center; */
+}
